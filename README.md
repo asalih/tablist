@@ -1,2 +1,2 @@
 # tablist
-chrome tablist extensiın
+chrome extension for open tabs urls.  
