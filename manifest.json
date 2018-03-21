@@ -1,0 +1,15 @@
+{
+	"name": "My Tabs",
+	"version": "1.1",
+	"description": "List tabs and parse url list.",
+	"permissions": [
+		"tabs"
+	],
+	"browser_action": {
+		"default_title": "List tabs and parse url list.",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"manifest_version": 2,
+	"content_security_policy": "script-src 'self' https://ajax.googleapis.com https://maxcdn.bootstrapcdn.com; object-src 'self';style-src 'unsafe-inline' https://maxcdn.bootstrapcdn.com"
+}

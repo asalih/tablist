@@ -1,0 +1,30 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="popup.js"></script>
+</head>
+<body style="width: 600px;padding:10px;">
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#t1">Open Tabs</a></li>
+        <li><a data-toggle="tab" href="#t2">Parse Urls</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane fade active in" id="t1">
+            <textarea id="tabsList" style="max-width: 600px; width: 100%; height: 400px"></textarea>
+            <button type="button" class="btn btn-success" style="margin-top:10px" id="refresh">Refresh</button>
+        </div>
+        <div class="tab-pane fade" id="t2">
+            <textarea id="pars" style="max-width: 600px; width: 100%; height: 400px"></textarea>
+            <button type="button" class="btn btn-primary" style="margin-top:10px" id="parse">Parse</button>
+        </div>
+
+    </div>
+</body>
+</html>
